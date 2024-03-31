@@ -17,7 +17,7 @@ print(TimeTill)
 def create_window():
     window = tk.Tk()
     window.title("Days till Graduation")
-    label = tk.Label(window, text="The countdown until graduation on May 5th, at 9:45 AM is ")
+    label = tk.Label(window, text="The countdown until graduation on May 5th, at 9:45 AM is " + str(TimeTill))
     label.pack()
     window.mainloop()
 
